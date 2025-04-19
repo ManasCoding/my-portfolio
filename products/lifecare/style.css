@@ -1,0 +1,905 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+section {
+    min-height: 100vh;
+    align-items: center;
+
+}
+header {
+    background-color: transparent;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+}
+ul li {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+    color: blue;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;  
+}
+.dropdown {
+    display: none;
+    margin-left: -90px;
+}
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+
+}
+.dropdown ul {
+    display: block;
+}
+.dropdown ul li {
+    padding: 0px 20px 30px 20px;
+      
+}
+.dropdown2 {
+    display: none;
+}
+.dropdown ul li:hover .dropdown2 {
+    display: block;
+    position: absolute;
+    margin-left: -220px;
+    padding-right: 20px;
+    margin-top: -40px;   
+}
+.dropdown3 {
+    display: none;
+}
+.dropdown ul li:hover .dropdown3 {
+    display: block;
+    position: absolute;
+    margin-left: -220px;
+    padding-right: 20px;
+    margin-top: -40px;
+     
+}
+.dropdown4 {
+    display: none;
+}
+.dropdown ul li:hover .dropdown4 {
+    display: block;
+    position: absolute;
+    margin-left: -220px;
+    padding-right: 20px;
+    margin-top: -40px;
+       
+}
+.dropdown5 {
+    display: none;
+}
+.dropdown ul li:hover .dropdown5 {
+    display: block;
+    position: absolute;
+    margin-left: -220px;
+    padding-right: 20px;
+    margin-top: -40px;
+      
+}
+.navbar li a {
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    /*margin-left: 25px;*/
+}
+.logo {
+    font-size: 34px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+
+}
+.logo span {
+    color: blue;
+}
+
+#menu-icon {
+    font-size: 24px;
+    display: none;
+}
+
+
+/* home section*/
+
+  
+.home {
+    background-color: #44BD7E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content {
+    /*max-width: 600px;*/
+    color: #fff;
+    line-height: 1.5;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: -3px 0;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+}
+
+.home-content h1 span {
+    color: blue;
+}
+.home-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    
+
+}
+.home-content button {
+    background-color: dodgerblue;
+    color: #03361C;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 4px 10px 4px 10px;
+    margin-top: 20px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+}
+.image img {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 20px;
+    border-radius: 30px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    
+    /*box-shadow: 10px 7px 20px orange;*/
+}
+
+
+/* dOCTOR*/
+
+.doctor {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.doctor-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+.doctor p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 4rem;
+}
+.basic {
+    height: 300px;
+    width: 250px;
+    color: #03361C;  
+    border-radius: 20px;
+    background: rgb(0, 207, 214); 
+    color: #03361C;
+}
+.box1 {
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+    background-color: blue;
+    background-image: url(image/m.jfif);
+    background-size: cover;
+}
+.box2 {
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+    background-color: blue;
+    background-image: url(image/O6T8LS01.jpg);
+    background-size: cover;
+}
+.box3 {
+    height: 70%;
+    border-radius: 20px 20px 0 0;
+    background-color: blue;
+    background-image: url(image/doctor.jpg);
+    background-size: cover;
+}   
+.basic h3 {
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+} 
+.basic h3 span {
+    font-size: 16px;
+    font-weight: 200;
+}
+.basic a {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 2px;
+    color: #fff;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+
+#arrow-left {
+    font-size: 40px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#arrow-right {
+    font-size: 40px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Speciality*/ 
+
+.speciality {
+    background-color: #44BD7E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speciality-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+} 
+
+.speciality p {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+
+.box-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    line-height: 2;
+    padding-top: 4rem;
+}
+
+.basic-neuro {
+    height: 250px;
+    width: 300px;
+    color: #03361C;  
+    border-radius: 20px;
+    background-color: #fff;
+    border: 2px solid rgb(0, 207, 214);
+    color: #03361C;
+}
+
+.box-neur {
+    height: 70%;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: url(image/neuro_hero_surgery.jpg);
+    background-size: cover;
+}
+
+.box-cancer {
+    height: 70%;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: url(image/img-cancer-treatment.jpg);
+    background-size: cover;
+}
+
+.box-care {
+    height: 70%;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: url(image/624e1435ff239e81b4b100c2.jpg);
+    background-size: cover;
+}
+
+.basic-neuro h3 {
+    margin-top: 0rem;
+    margin-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.basic-neuro a {
+    margin-left: 1rem;
+    text-decoration: underline;
+    padding: 2px;
+    color: dodgerblue;
+}
+
+
+/* Leading Medicine*/
+
+
+.leading-medicine {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medicine-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 0.5rem;
+}
+
+.leading-medicine .para {
+    line-height: 1.5;
+    padding-bottom: 3rem;
+}
+
+.medicine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    line-height: 1;
+}
+
+.medicine-card {
+    height: 350px;
+    width: 300px;
+    color: black;  
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid rgb(0, 207, 214); 
+    text-align: center;
+    line-height: 2;
+    
+}
+
+.medicine-card a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.health {
+    height: 30%;
+    font-size: 20px;
+    background-color: rgb(0, 207, 214);
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+
+.m {
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    color: dodgerblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*news*/
+
+
+.leading-news {
+    background-color: #44BD7E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+}
+
+.leading-news .para {
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.news-card {
+    height: 400px;
+    width: 300px;
+    color: black;  
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid rgb(0, 207, 214); 
+    line-height: 2; 
+}
+
+.news-card a p {
+    padding-left: 20px;
+}
+
+.news-card p {
+    padding-left: 20px;
+}
+.news-img {
+    width: 100%;
+    height: 45%;
+    background: #03361C;
+    background-image: url(image/news1.jpg);
+    background-size: cover;
+}
+
+.news-img2 {
+    width: 100%;
+    height: 45%;
+    background: #03361C;
+    background-image: url(image/news2.jpg);
+    background-size: cover;
+}
+
+.news-img3 {
+    width: 100%;
+    height: 45%;
+    background: #03361C;
+    background-image: url(image/news3.jpg);
+    background-size: cover;
+}
+
+.news-card a {
+    text-decoration: underline;
+    padding-left: 20px;
+    color: blue;
+}
+
+
+.anch-news p {
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(219, 41, 100);
+}
+.anch-news a {
+    text-decoration: none;
+}
+/* video */
+
+.video {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 7rem;
+    padding-bottom: 0.5rem;
+}
+
+.video-heading .para {
+    line-height: 1.5;
+}
+
+.video-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    margin-top: 1rem;
+}
+
+.video-div {
+    height: 400px;
+    width: 400px;
+    color: black;  
+    border-radius: 5px;
+    background: #fff; 
+    line-height: 2;
+}
+
+
+
+/* patient*/
+
+
+.patient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44BD7E;
+}
+
+.patient-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.patient .para {
+    line-height: 2;
+    padding-bottom: 5rem;
+}
+
+.patient-rev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    line-height: 1;
+} 
+
+.patient-card {
+    height: 230px;
+    width: 340px;
+    color: black;  
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid rgb(0, 207, 214); 
+    text-align: center;
+    line-height: 2;
+    padding-top: 10px;
+}
+.patient-card p {
+    font-size: 14px;
+}
+.patient-icon {
+    font-size: 18px;
+    color: red;
+    padding-bottom: 1rem;
+}
+.patient-image {
+    display: flex;
+    width: 100%;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    gap: 1.5rem;
+    color: dodgerblue;
+}
+.man1 {
+    background-color: blueviolet;
+    background-image: url(image/man1.jpg);
+    background-size: cover;
+    height: 14%;
+    width: 10%;
+    border-radius: 50%;
+}
+.man2 {
+    background-color: blueviolet;
+    background-image: url(image/man2.jpg);
+    background-size: cover;
+    height: 14%;
+    width: 10%;
+    border-radius: 50%;
+}
+.man3 {
+    background-color: blueviolet;
+    background-image: url(image/man3.jpg);
+    background-size: cover;
+    height: 14%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.arrow {
+    font-size: 34px;
+    cursor: pointer;
+}
+
+
+/*Pricing tag*/
+
+
+.pricing-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.pricing-tag .para {
+    line-height: 2;
+    padding-bottom: 2rem;
+} 
+
+.pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    line-height: 1;
+}
+
+.pricing p {
+    font-size: 14px;
+    text-align: start;
+    padding-left: 2rem;
+    line-height: 2.5;
+}
+
+.pricing h2 span {
+    font-size: 32px;
+    color: dodgerblue;
+}
+
+.pricing-card {
+    height: 400px;
+    width: 17%;
+    color: black;  
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid rgb(0, 207, 214);
+    text-align: center;
+    line-height: 2;
+}
+
+
+.pricing-card-mid {
+    height: 435px;
+    width: 17%;
+    color: #fff;  
+    border-radius: 5px;
+    background: rgb(19, 19, 71); 
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+.pricing button {
+    width: 75%;
+    background-color: dodgerblue;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+
+/* contact*/
+
+
+.contact {
+    background-color: #44BD7E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-heading {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+}
+
+.contact-heading span {
+    color: blue;
+}
+
+.connect span {
+    color: #44BD7E;
+}
+
+.contact-box {
+    min-width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-box .connect {
+    font-size: 26px;
+    padding: 2rem;
+}
+
+.contact-box input {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-box .btn {
+    color: blueviolet;
+    width: 12%;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px;
+    margin: 10px 0 45px 0;
+    border-radius: 5px;
+}
+
+.contact-box .btn:hover {
+    background-color: #44BD7E;
+    color: #fff;
+}
+
+::placeholder {
+    color: blueviolet;
+}
+
+
+/* footer */
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+    background: dodgerblue;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: #fff;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+    padding: 40px;
+    gap: 1rem;
+}
+
+
+/* footer */
+
+
+.footer {
+    background-color: #4e7e65;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.footer h3:hover {
+    color: #44BD7E;
+    cursor: pointer;
+}
+
+.footer p:hover {
+    color: palevioletred;
+    cursor: pointer;
+}
+
+/*KEYFRAMES ANIMATION*/
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

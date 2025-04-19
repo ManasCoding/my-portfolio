@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+}
+.hero {
+    background-image: url(image/IT-professionals-coding-scaled.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+
+.lg-text {
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.black {
+    background-color: black;
+    padding: 20px;
+    color: #ffffff;
+}
+.black h2 {
+    font-size: 72px;
+    text-align: center;
+    font-weight: 300;
+}
+.black h2 span {
+    font-weight: 400;
+    font-size: 96px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.basic {
+    height: 270px;
+    width: 250px;
+    line-height: 2;
+    text-align: center;
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow:  22px 22px 44px #949494,
+             -22px -22px 44px #ffffff;
+    cursor: pointer; 
+    transition: all .3s;        
+}
+.month {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button {
+    padding: 3px;
+    background-color: chocolate;
+    color: #ffffff;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: green;
+    color: black;
+
+}
+.basic:hover {
+    transform: scale(0.9);
+}
+
+
+.bottom {
+    display: flex;
+}
+.contact {
+    background-color: #515603;
+    border-right: 2px solid black;
+}
+.about {
+    background-color: #722300;
+    border-left: 2px solid black;
+}
+.contact,
+.about {
+    min-height: 300px;
+    padding: 32px;
+    color: #ffffff;
+}
+.contact p,
+.about p {
+    margin-bottom: 20px;
+}
+.contact h2,
+.about h2 {
+    font-size: 62px;
+    font-weight: 300;
+}
+footer {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: black;
+    padding: 20px;
+    color: #ffffff;
+}
+
+@media (max-width:786px){
+    .hero {
+        min-height: 50vh;
+    }
+    .text {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .lg-text {
+        font-size: 32px;
+    }
+    .black h2 {
+        font-size: 24px;
+    }
+    .black h2 span {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .bottom {
+        flex-direction: column;
+    }
+    .h1 {
+        font-size: 32px;
+    }
+    .contact h2 {
+        font-size: 32px;
+    }
+    .about h2 {
+        font-size: 32px;
+    }
+}

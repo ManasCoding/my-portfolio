@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.zomato {
+    height: 82vh;
+    background-image: url(image/zomato.avif);
+    background-size: cover;
+}
+.navbar ul {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    margin-right: 16rem;
+    padding-top: 4rem;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.heading {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    padding-top: -2rem;
+    color: #fff;
+}
+.heading-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.heading-div h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}
+.heading-india {
+    font-size: 38px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2.7rem;
+    letter-spacing: 3px;
+    padding-bottom: 4rem;
+}
+
+.heading-h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    padding-bottom: 3rem;
+}
+
+.rest-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.rest-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 360px;
+    font-size: 22px;
+    background-color: rgb(252, 252, 252);
+    border: 0.5px solid rgb(210, 212, 212);
+    border-radius: 10px;
+}
+
+.rest-div:hover {
+    box-shadow: 0px 0.5px 1px 0.5px gray;
+}
+
+
+
+footer {
+    margin-top: 2rem;
+    background-color: rgb(209, 210, 211);
+}
+
+.logo-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem 3rem 7rem;
+}
+
+.india-flag {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer-box {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div {
+    line-height: 1.5;
+}
+
+.footer-div a {
+    font-size: 24px;
+    color: black;
+}
+
+.footer-img img{
+    height: 50px;
+    width: 110px;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flag {
+    height: 20px;
+    width: 30px;
+    background-color: aqua;
+    background-image: url(image/india.webp);
+    background-size: cover;
+}
+
+.flag2 {
+    background-image: url(image/glo.jfif);
+    background-size: cover;
+}
+
+.india-div {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}

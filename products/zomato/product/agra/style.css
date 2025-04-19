@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 44px;
+    margin-top: 1rem;
+    margin-right: -2rem;
+    margin-left: 4rem;
+}
+i {
+    font-size: 26px;
+    font-weight: 100;
+}
+span {
+    font-size: 26px;
+    font-weight: 100;
+}
+input {
+    font-size: 15px;
+    border: none;
+}
+.int {
+    width: 400px;
+}
+
+.input-box {
+    margin: 1rem;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 0.5rem;
+    box-shadow: 0 1px 5px 1px rgb(219, 214, 214);
+}
+.log a {
+    color: black;
+    font-size: 26px;
+    font-weight: 100;
+    margin-left: 2rem;
+}
+
+.log {
+    padding-top: 1.5rem;
+    margin-right: 5rem;
+}
+
+.delivery-box {
+    display: flex;
+    justify-content: left;
+    gap: 4rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.delivery-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.delivery-div a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+.out-box {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: blue;
+}
+
+.out1 {
+    background-image: url(image/diner.jfif);
+    background-size: cover;
+}
+.out2 {
+    background-image: url(image/delivery.png);
+    background-size: cover;
+}
+.out3 {
+    background-image: url(image/nightlife.jpg);
+    background-size: cover;
+}
+
+.hotel-div {
+    margin-top: 1.5rem;
+    background-color: rgb(228, 225, 221);
+    padding-bottom: 3rem;
+}
+.hotel-heading {
+    font-size: 30px;
+    padding-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+.hotel-para {
+    font-size: 24px;
+    margin-left: 5rem;
+}
+.para-box {
+    display: flex;
+    justify-content: space-between;
+}
+.para-box a {
+    margin-right: 5rem;
+    text-decoration: underline;
+}
+.hotel-box {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.hotel-img {
+    width: 280px;
+    height: 360px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.hotel-img h2 {
+    font-size: 22px;
+    margin-top: 18rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+.hotel-img p {
+    margin-left: 0.5rem;
+}
+
+.img1 {
+    background-image: url(image/taj.jfif);
+    background-size: cover;
+}
+.img2 {
+    background-image: url(image/food.avif);
+    background-size: cover;
+}
+.img3 {
+    background-image: url(image/hotel.jfif);
+    background-size: cover;
+}
+.img4 {
+    background-image: url(image/rest.jfif);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.food {
+    margin-left: 10%;
+    margin-top: 4rem;
+    width: 80%;
+    height: 300px;
+    background-image: url(image/ofer.avif);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.room-div {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.room-box {
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.room-img {
+    width: 100%;
+    height: 250px;
+    background-image: url(hotel/img1.avif);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 2rem;
+    background-color: rgb(209, 210, 211);
+}
+.logo-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem 3rem 7rem;
+}
+.india-flag {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.footer-box {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-div {
+    line-height: 1.5;
+}
+.footer-div a {
+    font-size: 24px;
+    color: black;
+}
+.footer-img img{
+    height: 50px;
+    width: 110px;
+}
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flag {
+    height: 20px;
+    width: 30px;
+    background-color: aqua;
+    background-image: url(image/india.webp);
+    background-size: cover;
+}
+
+.flag2 {
+    background-image: url(image/glo.jfif);
+    background-size: cover;
+}
+
+.india-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+}

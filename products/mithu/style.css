@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(rgb(171, 82, 189), hsl(257, 72%, 10%), #160e2a);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+.dice-box {
+    margin-top: 2rem;
+    height: 240px;
+    width: 150px;
+    color: #fff;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    transition: all .3s;
+
+}
+
+.dice-box:hover {
+    transform: scale(1.1);
+}
+.box {
+    height: 70%;
+    width: 100%;
+    background-color: blue;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.dice-img {
+    background-image: url(image/dice.jfif);
+    background-size: contain;
+}
+
+.guess-img {
+    background-image: url(image/guess.png);
+    background-size: cover;
+}
+
+.rock-img {
+    background-image: url(image/rock.jpg);
+    background-size: cover;
+}
+
+.simon-img {
+    background-image: url(image/simon.webp);
+    background-size: cover;
+}
+
+.prime-img {
+    background-image: url(image/prime.jpg);
+    background-size: cover;
+}
+
+.tic-img {
+    background-image: url(image/tic-tac-toe.jpg);
+    background-size: cover;
+}
+
+.coming-img {
+    background-image: url(image/coming.jpg);
+    background-size: cover;
+}

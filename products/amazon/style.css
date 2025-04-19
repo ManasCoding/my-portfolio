@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: #b9b9b9;
+}
+.nav-heading {
+    background-color: #131921;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+.logo {
+    font-size: 30px;
+    padding: 0 5px 0 5px;
+    position: relative;
+    margin-left: 10px;
+}
+.logo span {
+    font-size: 18px;
+
+}
+.logo:hover {
+    border: 1px solid #fff;
+}
+.update-box { 
+    padding: 0px 5px 0px 5px;
+    position: relative;
+}
+.update-box:hover {
+    border: 1px solid #fff;
+}
+.update-box h5 {
+    font-size: 12px;
+    color: #E6E6E6;
+}
+.update-box h4 {
+    font-size: 15px;
+}
+.input-box {
+    display: flex;
+    justify-content: center;
+    height:  42px;
+}
+.all-box {
+    width: 3rem;
+    background-color: #E6E6E6;
+    color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px 0 0 2px;
+}
+input {
+    width: 30rem;
+    padding-left: 1rem;
+}
+.search-box {
+    font-size: 24px;
+    color: #131921;
+    width: 3rem;
+    background-color: #FEBD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 2px 2px 0;
+    
+}
+
+.cart-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    margin-right: 10px;
+}
+.cart-box:hover {
+    border: 1px solid #fff;
+}
+.cart-box i {
+    font-size: 2.5rem;
+}
+.cart-box p {
+    margin-top: 15px;
+}
+.en-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5px 0 5px;
+}
+.en-flag {
+    width: 30px;
+    height: 17px;
+    background-image: url(nav-image/flag.jfif);
+    background-size: cover;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+.en-box:hover {
+    border: 1px solid #fff;
+}
+
+
+
+
+.navbar {
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 15px;
+}
+.all i {
+    font-size: 28px;
+}
+.navbar a {
+    color: #fff;   
+}
+.ancr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.ancr h1 {
+    margin-left: -15px;
+}
+.img {
+    height: 40px;
+    width: 30%;
+    background-image: url(nav-image/join.jpg);
+    background-size: cover;
+}
+
+.main {
+    height: 15rem;
+    background-image: url(nav-image/background.jpg);
+    background-size: cover;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.product-box {
+    height: 440px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.product-box a {
+    text-decoration: none;
+    margin-right: 200px;
+}
+.product-box h2 {
+    margin-top: 15px;
+    margin-bottom: -30px;
+}
+
+.product-div {
+    height: 150px;
+    width: 125px;
+    cursor: pointer;
+}
+.product-div h3 {
+    font-size: 12px;
+    margin: 10px;
+}
+.product-img {
+    height: 80%;
+    background-color: #131921;
+}
+.wt-1 {
+    background-image: url(product-img/wt-1.jpg);
+    background-size: cover;
+    
+}
+.wt-2 {
+    background-image: url(product-img/wt-2.jpg);
+    background-size: cover;
+}
+.wt-3 {
+    background-image: url(product-img/wt-3.jpg);
+    background-size: cover;
+}
+.wt-4 {
+    background-image: url(product-img/wt-4.jpg);
+    background-size: cover;
+}
+.cl-1 {
+    background-image: url(product-img/cl-1.jpg);
+    background-size: cover;
+}
+.cl-2 {
+    background-image: url(product-img/cl-2.jpg);
+    background-size: cover;
+}
+.cl-3 {
+    background-image: url(product-img/cl-3.jpg);
+    background-size: cover;
+}
+.cl-4 {
+    background-image: url(product-img/cl-4.jpg);
+    background-size: cover;
+}
+.cl-5 {
+    background-image: url(product-img/cl-5.jpg);
+    background-size: cover;
+}
+.cl-6 {
+    background-image: url(product-img/cl-6.jpg);
+    background-size: cover;
+}
+.cl-7 {
+    background-image: url(product-img/cl-7.jpg);
+    background-size: cover;
+}
+.cl-8 {
+    background-image: url(product-img/cl-8.jpg);
+    background-size: cover;
+}
+.tv-32 {
+    background-image: url(product-img/tv-32.jpg);
+    background-size: cover;
+}
+.tv-43 {
+    background-image: url(product-img/tv-43.jpg);
+    background-size: cover;
+}
+.tv-55 {
+    background-image: url(product-img/tv-55.jpg);
+    background-size: cover;
+}
+.tv-65 {
+    background-image: url(product-img/tv-65.jpg);
+    background-size: cover;
+}
+.el-1 {
+    background-image: url(product-img/el-1.jpg);
+    background-size: cover;
+}
+.el-2 {
+    background-image: url(product-img/el-2.jpg);
+    background-size: cover;
+}
+.el-3 {
+    background-image: url(product-img/el-3.jpg);
+    background-size: cover;
+}
+.el-4 {
+    background-image: url(product-img/el-4.jpg);
+    background-size: cover;
+}
+.pt-1 {
+    background-image: url(product-img/pt-1.jpg);
+    background-size: cover;
+}
+.pt-2 {
+    background-image: url(product-img/pt-2.jpg);
+    background-size: cover;
+}
+.pt-3 {
+    background-image: url(product-img/pt-3.jpg);
+    background-size: cover;
+}
+.pt-4 {
+    background-image: url(product-img/pt-4.jpg);
+    background-size: cover;
+}
+.gl-1 {
+    background-image: url(product-img/gl-1.jpg);
+    background-size: cover;
+}
+.gl-2 {
+    background-image: url(product-img/gl-2.jpg);
+    background-size: cover;
+}
+.gl-3 {
+    background-image: url(product-img/gl-3.jpg);
+    background-size: cover;
+}
+.gl-4 {
+    background-image: url(product-img/gl-4.jpg);
+    background-size: cover;
+}
+.cs-1 {
+    background-image: url(product-img/cs-1.jpg);
+    background-size: cover;
+}
+.cs-2 {
+    background-image: url(product-img/cs-2.jpg);
+    background-size: cover;
+}
+.cs-3 {
+    background-image: url(product-img/cs-3.jpg);
+    background-size: cover;
+}
+.cs-4 {
+    background-image: url(product-img/cs-4.jpg);
+    background-size: cover;
+}
+.sd-1 {
+    background-image: url(product-img/sd-1.jpg);
+    background-size: cover;
+}
+.sd-2 {
+    background-image: url(product-img/sd-2.jpg);
+    background-size: cover;
+}
+.sd-3 {
+    background-image: url(product-img/sd-3.jpg);
+    background-size: cover;
+}
+.sd-4 {
+    background-image: url(product-img/sd-4.jfif);
+    background-size: cover;
+}
+   
+
+
+
+.mobile-box {
+    padding-top: .7rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mobile-div {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+
+}
+.mobile-div img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.mobile-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.mobile-btn {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem 0 1rem;
+    padding-bottom: 3rem;
+    line-height: 1.8;
+}
+.mobile-btn h5 span {
+    padding: .3rem;
+    margin-right: .3rem;
+    background-color: #CC0C39;
+    color: #DDDDDD;
+}
+
+.bike-box {
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.bike-img {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+.bike-box h2 {
+    padding-top: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.cloth-box {
+    background-color: #fff;
+    margin: 2rem;
+    padding-bottom: 2rem;
+}
+.cloth-img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.cloth-box h2 {
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.cloth-box h2 span {
+    font-size: 16px;
+    margin-left: 2rem;
+    text-decoration: underline;
+}
+.furniture-box {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #fff;
+}
+.furniture-box h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.furniture-box h2 span {
+    font-size: 16px;
+    margin-left: 2rem;
+    text-decoration: underline;
+}
+.furniture-img {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+
+.sign-box {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2.5rem 0 1rem 0;
+    background-color: #fff;
+}
+.sign-div {
+    border: .5px solid rgb(194, 192, 192);
+    border-radius: 10px;
+    padding: 1.5rem 0 1.5rem 0;
+    background-color: #fff;
+    color: #4A1800;
+    line-height: 2;
+}
+.sign-div button {
+    padding: .5rem 7rem .5rem 7rem;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    background: linear-gradient(#FFD872, #FFD774, #FFD978, #FFCF56, #FFCA44, #FFC636);
+    background-color: #FFC940;
+}
+
+
+
+/* footer */
+
+
+footer {
+    background-color: #232F3E;
+}
+
+.back {
+    text-align: center;
+    font-size: 16px;
+    background-color: #37475A;
+    color: #fff;
+    padding: 1rem 0 1rem 0;
+}
+
+.footer-box {
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    border-bottom: .5px solid #DDDDDD;
+}    
+.footer-div {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    line-height: 2;
+    color: #fff;
+}
+.footer-div a:hover {
+    text-decoration: underline;
+    color: #DDDDDD;
+}
+.footer-div h4 {
+    font-size: 20px;
+}
+.footer-div p {
+    font-size: 16px;
+    color: #DDDDDD;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-tag {
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+.footer-tag a {
+    font-size: 12px;
+    margin-right: 1rem;
+    color: #DDDDDD;
+}
+.footer-tag a:hover {
+    text-decoration: underline;
+}
+
+

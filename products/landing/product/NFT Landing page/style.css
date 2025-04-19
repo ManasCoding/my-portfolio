@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #160e2a;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* header */
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    filter: blur(0.5px);
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    
+}
+.logo {
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    height: 90%px;
+    width: 2.5%;
+
+
+}
+.navbar a {
+    color: #fff;
+    margin-left: 50px;
+    
+}
+
+.btn button {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+
+}
+.btn button:hover {
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+.box {
+    background-color: #160e2a;
+}
+
+
+/* main */
+
+
+.main {
+    padding-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main-content {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.main-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.para {
+    padding-top: 50px;
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: 700;
+}
+.heading span {
+    color: #0ef;
+}
+
+.image img {
+    height: 600px;
+    width: 500px;
+    margin-right: 70px;
+
+}
+.box-icon {
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.icon {
+    font-size: 50px;
+    padding: 10px;
+    
+}
+.icon-heading h3 {
+    font-size: 24px;
+}
+.icon-heading .p {
+    padding-top: 6px;
+}
+
+
+
+/* creator */
+
+
+
+
+
+
+.creator {
+    background-image: url(assets/map.png);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.creator-heading {
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7a4df9;
+    margin-right: 130px;
+}
+
+.creator-heading h1 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+
+
+/* collection */
+
+
+
+.collection {
+    background-color: #160e2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection-heading {
+    width: 200px;
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #0d0819;
+    color: #fff;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.collection-box {
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.collection-card {
+    background-color: transparent;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.box2 {
+    background-color: transparent;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.box1 {
+    height: 180px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    color: #fff;
+    margin-right: 60px;
+    text-align: center;
+    
+}
+
+
+.box3 {
+    height: 180px;
+    width: 150px;
+    background-color: rgb(53, 53, 53);
+    background-image: url(assets/Avatar\ 1.png);
+    background-size: cover;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.box4 {
+    height: 180px;
+    width: 150px;
+    background-color: transparent;
+    background-image: url(assets/Avatar2.png);
+    background-size: cover;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.box5 {
+    height: 180px;
+    width: 150px;
+    background-color: rgb(174, 0, 255);
+    background-image: url(assets/Image\ 1.png);
+    background-size: cover;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+.box6 {
+    height: 180px;
+    width: 150px;
+    background-color: transparent;
+    background-image: url(assets/merlin.png);
+    background-size: cover;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+.collection-box button {
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+    background-color: #0d0819;
+    color: #fff;
+    border: 1px solid #6d7afe;
+}
+
+.collection-heading2 {
+    padding-top: 100px;
+}
+
+.collection-heading2 p {
+    line-height: 1.5;
+    color: #fff;
+    margin-left: 150px;
+}
+
+.collection-nft {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.nft-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7a4df9;
+    margin-right: 180px;
+}
+
+.collection-nft h1 {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+
+/* nft choose*/
+
+
+.choose-box {
+    background-color: #0d0819;
+    height: 500px;
+    width: 90%;
+    border: 1px solid #6d7afe;
+    border-radius: 50% 20% 20% 50% / 0% 50% 50% 0%;
+    margin-top: 100px;
+}
+
+
+
+/* nft */
+
+
+
+
+.nft-heading {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+
+.nft-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #7a4df9;
+    margin-right: 180px;
+}
+
+.nft-heading h1 {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+
+.nft {
+    display: flex;
+    gap: 150px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.ft-bx {
+    border: 2px solid dodgerblue;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.ft-bx h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.ft-bx1 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(assets/wallet-one.png);
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+.ft-bx2 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(assets/Vector.png);
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+.ft-bx3 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(assets/picture.png);
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+.ft-bx4 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(assets/healthicons.png);
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+.nft-drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nft-drop {
+    font-size: 30px;
+    color: #fff;
+}
+
+.nft-drop h1 {
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input {
+    border: 2px solid dodgerblue;
+    font-size: 20px;
+    color: #fff;
+}
+.input input {
+    padding: 10px 150px 10px 20px;
+    margin-top: 30px;
+}
+
+.input input:hover {
+    box-shadow: 0px 0px 20px #0ef;
+
+}
+
+.input button {
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.input button:hover {
+    box-shadow: 0px 0px 20px #0ef;
+}
+
+
+/* footer */
+
+
+.logo-s {
+    background-image: url(assets/logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #0d0819;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    line-height: 2.5;
+}
+
+.footer-div {
+    background: none;
+
+}
+
+.footer-div p {
+    background: none;
+}
+
+.footer-div h3 {
+    background: none;
+}
+
+.icons {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    background: none;
+}
+
+.social-icon1 {
+    background: transparent;
+    background-image: url(assets/insta.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icon2 {
+    background: transparent;
+    background-image: url(assets/fb.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icon3 {
+    background: transparent;
+    background-image: url(assets/whatsapp.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icon4 {
+    background: transparent;
+    background-image: url(assets/yt.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}

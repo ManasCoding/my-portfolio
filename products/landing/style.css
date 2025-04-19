@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 6rem;
+    background: linear-gradient(rgb(171, 82, 189), hsl(257, 72%, 10%), hsl(257, 64%, 20%));
+}
+
+.landing-box {
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+    height: 450px;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid dodgerblue;
+    color: #fff;
+}
+
+.landing-img {
+    height: 70%;
+    width: 100%;
+    margin-bottom: 5rem;
+    background: #555;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.box1 {
+    background-image: url(image/NFT.png);
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url(image/goblin.png);
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(image/news.png);
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(image/developer.png);
+    background-size: cover;
+}
+
+.box5 {
+    background-image: url(image/business.png);
+    background-size: cover;
+}
+
+.box7 {
+    background-image: url(image/coming.jfif);
+    background-size: cover;
+}
