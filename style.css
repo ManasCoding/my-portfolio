@@ -463,7 +463,7 @@ header {
 
 .about-content h1 {
     font-size: 20px;
-    color: #1202a0;
+    color: #000000;
     margin-bottom: 10px;
     opacity: 0;
     animation: slideTop 1s ease forwards;
