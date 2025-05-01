@@ -1,0 +1,29 @@
+.box {
+    background-color: blue;
+    border-radius: 5px;
+    border: 5px solid brown;
+    padding: 10px;
+}
+
+.box h1 {
+    color: yellow;
+    font-weight: 200;
+    font-size: 20px;
+}
+.box3 {
+    background-color: red;
+    padding: 1px;
+    
+    
+} 
+.box3 ul p {
+    color: aliceblue;
+    
+}
+.box5 {
+    background-color: red;
+    padding: 1px;
+}
+.box5 ul p {
+    color: aliceblue;
+}

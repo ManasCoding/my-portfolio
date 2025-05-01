@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.box2 {
+    width: 200px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 40px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    color: red;
+}
+.box2:hover {
+    background-color: brown;
+    color: aliceblue;
+    cursor: pointer;
+}
+.box1 {
+    height: 400px;
+    width: 800px;
+    background-image: url(https://th.bing.com/th/id/OIP.zeNPNbcmNiwHlHBapcLdBAAAAA?rs=1&pid=ImgDetMain);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+

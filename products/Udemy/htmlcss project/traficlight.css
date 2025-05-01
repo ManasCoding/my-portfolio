@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blue;
+}
+.box {
+  height: 400px;
+  width: 100px;
+  background-color: black;
+  border-radius: 10px;
+  
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  
+}
+#first {
+  background-color: red;
+}
+#sec {
+  background-color: orange;
+}
+#thir {
+  background-color: green;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+

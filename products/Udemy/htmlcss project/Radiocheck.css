@@ -1,0 +1,39 @@
+.box1 {
+    display: flex;
+    justify-content: center;
+}
+.box2 {
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    border: 5px solid gray;
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow:  22px 22px 44px #949494,
+                -22px -22px 44px #ffffff;    
+    cursor: pointer;               
+    transition: all 0.4s;                
+}
+
+.box2:hover {
+    transform: scale(0.9);
+}
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+#blue:checked {
+    accent-color: blue;
+}
+#green:checked {
+    accent-color: green;
+}
+#red:checked {
+    accent-color: red;
+}
+#yellow:checked {
+    accent-color: rgb(219, 219, 113);
+}
+#pink:checked {
+    accent-color: rgb(173, 103, 114);
+}

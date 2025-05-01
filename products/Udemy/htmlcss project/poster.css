@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    
+}
+.img {
+    height: 40%;
+    width: 50%;
+    background-color: blueviolet;
+    margin-bottom: 150px;
+    margin-left: 25%;
+    position: relative;
+    top: 40px;
+    background-image: url(https://th.bing.com/th/id/R.1178fbd7ea7ffaa5f4cd7311fa3ed057?rik=3YLuDQ2X9GBuVQ&riu=http%3a%2f%2fsfwallpaper.com%2fimages%2fdreamscapes-wallpaper-11.jpg&ehk=Ws0iedsbup9j4LR9n5bSKDG2eRWuWAfHSE30lcszg9o%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+.box {
+    background-color: #ffffff;
+    height: 600px;
+    width: 1000px;
+    margin: 10%;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5rem;
+}

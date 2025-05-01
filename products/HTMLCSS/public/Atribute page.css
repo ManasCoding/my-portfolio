@@ -1,0 +1,19 @@
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+.tribute {
+    text-align: center;
+    color: black;
+
+}
+.Bio {
+    color: white;
+    background-color: black;
+}
+.Bio p {
+    line-height: 1.5;
+}

@@ -1,0 +1,20 @@
+.box {
+    height: 400px;
+    width: 800px;
+    background-color: black;
+    color: aliceblue;
+    margin: 100px 200px;
+    text-align: center;
+
+}
+.img {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-left: 300px;
+    background-image: url(https://kj1bcdn.b-cdn.net/media/63822/goat-farming.jpeg);
+    background-size: cover;
+    border: 5px solid red;
+    
+
+}

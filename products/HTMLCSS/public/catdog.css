@@ -1,0 +1,19 @@
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    
+}
+.cat {
+    float: left;
+    background-color: blueviolet;
+}
+.dog {
+    background-color: brown;
+    float: right;
+}
+div {
+    display: inline-block;
+    width: 40%;
+    justify-content: center;
+}

@@ -1,0 +1,36 @@
+header {
+    color: #ffffff;
+    background-color: blueviolet;
+    text-align: center;
+    height: 100px;
+}
+
+main {
+    color: black;
+    background-color: #ffffff;
+    text-align: center;    
+}
+footer {
+    color: #ffffff;
+    background-color: blueviolet;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px;
+}
+a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+button {
+    color: #ffffff;
+    background-color: blueviolet;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#divID {
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 92);
+    color: #fff;
+}

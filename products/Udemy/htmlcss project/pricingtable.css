@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 200px;
+}
+
+
+.basic {
+    height: 270px;
+    width: 250px;
+    text-align: center;
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow:  22px 22px 44px #949494,
+             -22px -22px 44px #ffffff;
+    cursor: pointer; 
+    transition: all .3s;        
+}
+.month {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button {
+    padding: 3px;
+    background-color: chocolate;
+    color: #ffffff;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: green;
+    color: black;
+
+}
+.basic:hover {
+    transform: scale(0.9);
+}
