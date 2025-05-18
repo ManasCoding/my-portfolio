@@ -350,7 +350,7 @@ header {
 }
 
 .r0 {
-    background-image: url(image/attachment_25012339.png);
+    background-image: url(image/assets/mercy.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -406,11 +406,16 @@ header {
     background-position: center;
 }
 .r11 {
-    background-image: url(image/download.jpeg);
+    background-image: url(image/attachment_25012339.png);
     background-size: cover;
     background-position: center;
 }
 .r12 {
+    background-image: url(image/download.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.r13 {
     background-image: url(image/OIP\ \(3\).jpeg);
     background-size: cover;
     background-position: center;
