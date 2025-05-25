@@ -420,6 +420,11 @@ header {
     background-size: cover;
     background-position: center;
 }
+.r14 {
+    background-image: url(image/assets/url.jpeg);
+    background-size: cover;
+    background-position: center;
+}
 .m1 {
     background-image: url(image/68b537179140959.64f4b7c34a70f.png);
     background-size: cover;
